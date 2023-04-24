@@ -4,6 +4,7 @@ import { Send } from '@material-ui/icons';
 import MicIcon from '@mui/icons-material/Mic';
 
 export default function ChatBar() {
+
     return (
         <div className="flex w-full rounded-md  items-center space-x-2 bg-light-brown">
             <input
@@ -24,6 +25,7 @@ export default function ChatBar() {
                 color="primary"
                 aria-label="send"
                 className="bg-light-brown hover:bg-light-brown"
+                
             >
                 <MicIcon style={{ color: "grey" }} />
             </IconButton>
